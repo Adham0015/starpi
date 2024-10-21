@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_compoenets_two_btn_ctas",
+  "info": {
+    "displayName": "two btn cta",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "firstBtn": {
+      "displayName": "btn",
+      "type": "component",
+      "repeatable": false,
+      "component": "compoenets.btn"
+    },
+    "secondebtn": {
+      "type": "component",
+      "repeatable": false,
+      "component": "compoenets.btn"
+    }
+  }
+}

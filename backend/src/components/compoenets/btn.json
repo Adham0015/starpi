@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_compoenets_btns",
+  "info": {
+    "displayName": "btn"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "prm",
+        "sec",
+        "outline",
+        "outline-icon"
+      ]
+    }
+  }
+}

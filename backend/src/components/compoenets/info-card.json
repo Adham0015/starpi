@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_compoenets_info_cards",
+  "info": {
+    "displayName": "infoCard"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "media": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "description": {
+      "type": "string"
+    },
+    "bacground": {
+      "type": "enumeration",
+      "enum": [
+        "blue",
+        "purple",
+        "green",
+        "gray"
+      ]
+    },
+    "ctaBtn": {
+      "type": "component",
+      "repeatable": false,
+      "component": "compoenets.btn"
+    }
+  }
+}

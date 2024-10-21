@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "news_rooms",
+  "info": {
+    "singularName": "news-room",
+    "pluralName": "news-rooms",
+    "displayName": "newsRoom"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "pageContent": {
+      "type": "dynamiczone",
+      "components": [
+        "compoenets.two-btn-cta",
+        "compoenets.title",
+        "compoenets.info-card",
+        "compoenets.header",
+        "compoenets.btn",
+        "compoenets.artcil",
+        "compoenets.artcil-list"
+      ]
+    }
+  }
+}

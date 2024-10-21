@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_compoenets_artcil_lists",
+  "info": {
+    "displayName": "artcilList"
+  },
+  "options": {},
+  "attributes": {
+    "artcil": {
+      "displayName": "artcil",
+      "type": "component",
+      "repeatable": true,
+      "component": "compoenets.artcil"
+    }
+  }
+}

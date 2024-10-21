@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_compoenets2_links",
+  "info": {
+    "displayName": "Link"
+  },
+  "options": {},
+  "attributes": {
+    "url": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    },
+    "isExtrinal": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}
